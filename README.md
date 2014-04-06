@@ -4,6 +4,12 @@ Meridian Shapes-impl is the default implementation of the abstractions provided 
 
 Currently it delegates most of the job to Meridian [clj-jts] (http://github.com/jsofra/clj-jts). Eventually it is planned that a pure Clojure implementation will be provided.
 
+## Installation
+
+Add the following dependency to your `project.clj` file:
+
+    [meridian/shapes-impl "0.0.2"]
+
 ## Usage
 
 Implementations are provided for both Shapes records and for plain maps with the same structure.
